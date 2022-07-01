@@ -45,3 +45,20 @@ error-output{
     font-style: italica;
     color:red;
 }
+@media only screen and (max-width:360px)
+{
+    .headerContainer{
+        font-size:20px;
+        text-align:center;
+        background: gold;
+    }
+    label{
+        width:35%;
+        font-size:12px;
+        margin-right:0%;
+        text-align:left;
+    }
+    input{
+        width:40%;
+    }
+}
